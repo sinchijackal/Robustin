@@ -1,0 +1,25 @@
+{
+  "html"         : "html",
+  "documentation": "documentation",
+  "assets"       : "assets",
+  "app_assets"   : "app-assets",
+  "destination": {
+    "js"     : "app-assets/js",
+    "css"    : "app-assets/css",
+    "css_rtl": "app-assets/css-rtl"
+  },
+  "source": {
+    "path"         : "src",
+    "js"           : "src/js",
+    "sass"         : "src/scss"
+  },
+  "autoprefixerBrowsers": [
+    "Android >= 4",
+    "Chrome >= 25",
+    "Firefox >= 15",
+    "Explorer >= 9",
+    "iOS >= 12",
+    "Opera >= 12",
+    "Safari >= 6"
+  ]
+}
